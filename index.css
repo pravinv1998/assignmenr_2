@@ -1,0 +1,50 @@
+body{
+    margin: 10px;
+}
+
+.inputContainer{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-end;
+
+}
+
+#input{
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#submit{
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.country{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: space-around;
+    border-width: 1px ;
+    border-radius: 5px;
+}
+
+.countryDataAlign {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.displayCountry {
+    margin-top: 20px;
+}
+
+.secondHalf{
+    margin-top: 20px;
+}
